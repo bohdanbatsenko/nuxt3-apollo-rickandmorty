@@ -1,5 +1,6 @@
 <template>
   <div>
+    <NuxtLink to="/" class="ml-3">Back</NuxtLink>
     <CharacterCard
       :id="data.character.id"
       :name="data.character.name"
